@@ -14,7 +14,7 @@ cat /etc/shadow/
 ```
 Hay que meter el hash en un archivo de texto para posteriormente realizar un ataque de diccionario con john. Por lo que utilizamos el siguiente comando.
 ```
-head -1 > archivo.txt
+head -1 /etc/shadow > archivo.txt
 ```
 Mediante el comando head les estamos diciendo que nos muestre las primeras lineas de un archivo y con -1 le indicamos que solo queremos la primera linea de dicho archivo. Con > le indicamos que la salida del comando head -1 la envíe a archivo.txt.
 
