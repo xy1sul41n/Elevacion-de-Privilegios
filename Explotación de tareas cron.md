@@ -16,7 +16,7 @@ Si el archivo que ejecuta la tarea cron tiene permisos de escritura podremos edi
 ```
 chmod 4755 /bin/bash
 ```
-Mediante el siguiente comando comprobaremos cuando se ha ejecutado.
+Mediante el siguiente comando comprobaremos cuando se ha ejecutado. Este comando muestra por pantalla el resultado de hacer **ls -l /bin/bash** cada segundo.
 ```
 watch -n 1 ls -l /bin/bash
 ```
